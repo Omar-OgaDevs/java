@@ -11,8 +11,11 @@ public class App {
         System.out.println("Double Minimum Value = " + myMinDoubleValue);
         System.out.println("Double Maximum Value = " + myMaxDoubleValue);
         
-        int myIntValue = 5;
-        float myFloatValue = 5.25f;
-        double myDoubleValue = 5.25d;
+        int myIntValue = 5 / 3;
+        float myFloatValue = 5f / 3f;
+        double myDoubleValue = 5d / 3d;
+        System.out.println("MyIntValue= " + myIntValue);
+        System.out.println("MyFloatValue= " + myFloatValue);
+        System.out.println("MyDoubleValue= " + myDoubleValue);
    }
 }
