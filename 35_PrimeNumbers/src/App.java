@@ -29,7 +29,9 @@ public class App {
             return false;
         }
 
-        for(int i = 2; i <= n/2; i++) {
+        //for(int i = 2; i <= n/2; i++) { more efficient using square root
+        for(int i = 2; i <= (long) Math.sqrt(n); i++) {
+            System.out.println("Looping " + i);
             if(n % i == 0) {
                 return false;
             }
