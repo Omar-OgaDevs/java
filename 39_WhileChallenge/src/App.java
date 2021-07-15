@@ -30,11 +30,11 @@ public class App {
 
         while (number <= finishNumber) {
             number++;
-            if(!isEvenNumber(number)) {
+            if (!isEvenNumber(number)) {
                 continue;
             }
             System.out.println("Even Number " + number);
-            
+
             evenNumbersFound++; //Record evenNumbersFound
             if(evenNumbersFound >= 5) {
                 break;
